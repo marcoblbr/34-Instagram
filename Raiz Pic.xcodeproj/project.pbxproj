@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A960B99C1B7BDD7B00F0B9B4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A960B99A1B7BDD7B00F0B9B4 /* Bolts.framework */; };
+		A960B99D1B7BDD7B00F0B9B4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A960B99B1B7BDD7B00F0B9B4 /* Parse.framework */; };
+		A96C870E1B7FABF6002F87AC /* FollowUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96C870D1B7FABF6002F87AC /* FollowUserViewController.swift */; };
+		A97F42671B7EED9D00626D5F /* ParseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F42661B7EED9D00626D5F /* ParseModel.swift */; };
+		A97F42691B7EF5F500626D5F /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F42681B7EF5F500626D5F /* UserLoginViewController.swift */; };
+		A98540531B7A7A020052E347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98540521B7A7A020052E347 /* AppDelegate.swift */; };
+		A98540581B7A7A020052E347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98540561B7A7A020052E347 /* Main.storyboard */; };
+		A985405A1B7A7A020052E347 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A98540591B7A7A020052E347 /* Images.xcassets */; };
+		A985405D1B7A7A020052E347 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A985405B1B7A7A020052E347 /* LaunchScreen.xib */; };
+		A98540691B7A7A030052E347 /* Raiz_PicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98540681B7A7A030052E347 /* Raiz_PicTests.swift */; };
+		A98540771B7A7B950052E347 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540761B7A7B950052E347 /* AudioToolbox.framework */; };
+		A98540791B7A7BA00052E347 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540781B7A7BA00052E347 /* CFNetwork.framework */; };
+		A985407B1B7A7BAC0052E347 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985407A1B7A7BAC0052E347 /* CoreGraphics.framework */; };
+		A985407D1B7A7BB20052E347 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A985407C1B7A7BB20052E347 /* CoreLocation.framework */; };
+		A985407F1B7A7BCD0052E347 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A985407E1B7A7BCD0052E347 /* libz.dylib */; };
+		A98540811B7A7BDF0052E347 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540801B7A7BDF0052E347 /* MobileCoreServices.framework */; };
+		A98540831B7A7BEB0052E347 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540821B7A7BEB0052E347 /* QuartzCore.framework */; };
+		A98540851B7A7BFC0052E347 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540841B7A7BFC0052E347 /* Security.framework */; };
+		A98540871B7A7C070052E347 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540861B7A7C070052E347 /* StoreKit.framework */; };
+		A98540891B7A7C160052E347 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98540881B7A7C160052E347 /* SystemConfiguration.framework */; };
+		A985408B1B7A7C6F0052E347 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A985408A1B7A7C6F0052E347 /* libsqlite3.dylib */; };
+		A991237E1B83828E0002103B /* TimelineCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A991237D1B83828E0002103B /* TimelineCellViewController.swift */; };
+		A9DFEC5C1B81535D00E76765 /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFEC5B1B81535D00E76765 /* PostImageViewController.swift */; };
+		A9E7EE571B82900900F01B69 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7EE561B82900900F01B69 /* TimelineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A98540631B7A7A030052E347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A98540451B7A7A020052E347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A985404C1B7A7A020052E347;
+			remoteInfo = "Raiz Pic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A960B99A1B7BDD7B00F0B9B4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
+		A960B99B1B7BDD7B00F0B9B4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../Parse.framework; sourceTree = "<group>"; };
+		A96C870D1B7FABF6002F87AC /* FollowUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowUserViewController.swift; sourceTree = "<group>"; };
+		A97F42661B7EED9D00626D5F /* ParseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseModel.swift; sourceTree = "<group>"; };
+		A97F42681B7EF5F500626D5F /* UserLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		A985404D1B7A7A020052E347 /* Raiz Pic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raiz Pic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98540511B7A7A020052E347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98540521B7A7A020052E347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A98540571B7A7A020052E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98540591B7A7A020052E347 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A985405C1B7A7A020052E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A98540621B7A7A030052E347 /* Raiz PicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raiz PicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98540671B7A7A030052E347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98540681B7A7A030052E347 /* Raiz_PicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raiz_PicTests.swift; sourceTree = "<group>"; };
+		A98540761B7A7B950052E347 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A98540781B7A7BA00052E347 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A985407A1B7A7BAC0052E347 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A985407C1B7A7BB20052E347 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A985407E1B7A7BCD0052E347 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A98540801B7A7BDF0052E347 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A98540821B7A7BEB0052E347 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A98540841B7A7BFC0052E347 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A98540861B7A7C070052E347 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A98540881B7A7C160052E347 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A985408A1B7A7C6F0052E347 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A991237D1B83828E0002103B /* TimelineCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineCellViewController.swift; sourceTree = "<group>"; };
+		A9DFEC5B1B81535D00E76765 /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageViewController.swift; path = ../PostImageViewController.swift; sourceTree = "<group>"; };
+		A9E7EE561B82900900F01B69 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A985404A1B7A7A020052E347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A985408B1B7A7C6F0052E347 /* libsqlite3.dylib in Frameworks */,
+				A98540891B7A7C160052E347 /* SystemConfiguration.framework in Frameworks */,
+				A98540871B7A7C070052E347 /* StoreKit.framework in Frameworks */,
+				A960B99C1B7BDD7B00F0B9B4 /* Bolts.framework in Frameworks */,
+				A98540851B7A7BFC0052E347 /* Security.framework in Frameworks */,
+				A98540831B7A7BEB0052E347 /* QuartzCore.framework in Frameworks */,
+				A960B99D1B7BDD7B00F0B9B4 /* Parse.framework in Frameworks */,
+				A98540811B7A7BDF0052E347 /* MobileCoreServices.framework in Frameworks */,
+				A985407F1B7A7BCD0052E347 /* libz.dylib in Frameworks */,
+				A985407D1B7A7BB20052E347 /* CoreLocation.framework in Frameworks */,
+				A985407B1B7A7BAC0052E347 /* CoreGraphics.framework in Frameworks */,
+				A98540791B7A7BA00052E347 /* CFNetwork.framework in Frameworks */,
+				A98540771B7A7B950052E347 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A985405F1B7A7A030052E347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A960B99E1B7BE9E100F0B9B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A985408A1B7A7C6F0052E347 /* libsqlite3.dylib */,
+				A98540881B7A7C160052E347 /* SystemConfiguration.framework */,
+				A98540861B7A7C070052E347 /* StoreKit.framework */,
+				A98540841B7A7BFC0052E347 /* Security.framework */,
+				A98540821B7A7BEB0052E347 /* QuartzCore.framework */,
+				A98540801B7A7BDF0052E347 /* MobileCoreServices.framework */,
+				A985407E1B7A7BCD0052E347 /* libz.dylib */,
+				A960B99A1B7BDD7B00F0B9B4 /* Bolts.framework */,
+				A960B99B1B7BDD7B00F0B9B4 /* Parse.framework */,
+				A985407C1B7A7BB20052E347 /* CoreLocation.framework */,
+				A985407A1B7A7BAC0052E347 /* CoreGraphics.framework */,
+				A98540781B7A7BA00052E347 /* CFNetwork.framework */,
+				A98540761B7A7B950052E347 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98540441B7A7A020052E347 = {
+			isa = PBXGroup;
+			children = (
+				A985404F1B7A7A020052E347 /* Raiz Pic */,
+				A98540651B7A7A030052E347 /* Raiz PicTests */,
+				A985404E1B7A7A020052E347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A985404E1B7A7A020052E347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A985404D1B7A7A020052E347 /* Raiz Pic.app */,
+				A98540621B7A7A030052E347 /* Raiz PicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A985404F1B7A7A020052E347 /* Raiz Pic */ = {
+			isa = PBXGroup;
+			children = (
+				A98540521B7A7A020052E347 /* AppDelegate.swift */,
+				A98540561B7A7A020052E347 /* Main.storyboard */,
+				A97F42661B7EED9D00626D5F /* ParseModel.swift */,
+				A97F42681B7EF5F500626D5F /* UserLoginViewController.swift */,
+				A96C870D1B7FABF6002F87AC /* FollowUserViewController.swift */,
+				A9DFEC5B1B81535D00E76765 /* PostImageViewController.swift */,
+				A9E7EE561B82900900F01B69 /* TimelineViewController.swift */,
+				A991237D1B83828E0002103B /* TimelineCellViewController.swift */,
+				A98540591B7A7A020052E347 /* Images.xcassets */,
+				A985405B1B7A7A020052E347 /* LaunchScreen.xib */,
+				A960B99E1B7BE9E100F0B9B4 /* Frameworks */,
+				A98540501B7A7A020052E347 /* Supporting Files */,
+			);
+			path = "Raiz Pic";
+			sourceTree = "<group>";
+		};
+		A98540501B7A7A020052E347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98540511B7A7A020052E347 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A98540651B7A7A030052E347 /* Raiz PicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98540681B7A7A030052E347 /* Raiz_PicTests.swift */,
+				A98540661B7A7A030052E347 /* Supporting Files */,
+			);
+			path = "Raiz PicTests";
+			sourceTree = "<group>";
+		};
+		A98540661B7A7A030052E347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98540671B7A7A030052E347 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A985404C1B7A7A020052E347 /* Raiz Pic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A985406C1B7A7A030052E347 /* Build configuration list for PBXNativeTarget "Raiz Pic" */;
+			buildPhases = (
+				A98540491B7A7A020052E347 /* Sources */,
+				A985404A1B7A7A020052E347 /* Frameworks */,
+				A985404B1B7A7A020052E347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Raiz Pic";
+			productName = "Raiz Pic";
+			productReference = A985404D1B7A7A020052E347 /* Raiz Pic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A98540611B7A7A030052E347 /* Raiz PicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A985406F1B7A7A030052E347 /* Build configuration list for PBXNativeTarget "Raiz PicTests" */;
+			buildPhases = (
+				A985405E1B7A7A030052E347 /* Sources */,
+				A985405F1B7A7A030052E347 /* Frameworks */,
+				A98540601B7A7A030052E347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A98540641B7A7A030052E347 /* PBXTargetDependency */,
+			);
+			name = "Raiz PicTests";
+			productName = "Raiz PicTests";
+			productReference = A98540621B7A7A030052E347 /* Raiz PicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98540451B7A7A020052E347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Marco;
+				TargetAttributes = {
+					A985404C1B7A7A020052E347 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A98540611B7A7A030052E347 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A985404C1B7A7A020052E347;
+					};
+				};
+			};
+			buildConfigurationList = A98540481B7A7A020052E347 /* Build configuration list for PBXProject "Raiz Pic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A98540441B7A7A020052E347;
+			productRefGroup = A985404E1B7A7A020052E347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A985404C1B7A7A020052E347 /* Raiz Pic */,
+				A98540611B7A7A030052E347 /* Raiz PicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A985404B1B7A7A020052E347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98540581B7A7A020052E347 /* Main.storyboard in Resources */,
+				A985405D1B7A7A020052E347 /* LaunchScreen.xib in Resources */,
+				A985405A1B7A7A020052E347 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98540601B7A7A030052E347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98540491B7A7A020052E347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F42671B7EED9D00626D5F /* ParseModel.swift in Sources */,
+				A98540531B7A7A020052E347 /* AppDelegate.swift in Sources */,
+				A991237E1B83828E0002103B /* TimelineCellViewController.swift in Sources */,
+				A9DFEC5C1B81535D00E76765 /* PostImageViewController.swift in Sources */,
+				A9E7EE571B82900900F01B69 /* TimelineViewController.swift in Sources */,
+				A97F42691B7EF5F500626D5F /* UserLoginViewController.swift in Sources */,
+				A96C870E1B7FABF6002F87AC /* FollowUserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A985405E1B7A7A030052E347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98540691B7A7A030052E347 /* Raiz_PicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A98540641B7A7A030052E347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A985404C1B7A7A020052E347 /* Raiz Pic */;
+			targetProxy = A98540631B7A7A030052E347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98540561B7A7A020052E347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98540571B7A7A020052E347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A985405B1B7A7A020052E347 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A985405C1B7A7A020052E347 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A985406A1B7A7A030052E347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A985406B1B7A7A030052E347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A985406D1B7A7A030052E347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Raiz",
+					Pic,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Raiz Pic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A985406E1B7A7A030052E347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Raiz",
+					Pic,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Raiz Pic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		A98540701B7A7A030052E347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Raiz PicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raiz Pic.app/Raiz Pic";
+			};
+			name = Debug;
+		};
+		A98540711B7A7A030052E347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Raiz PicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raiz Pic.app/Raiz Pic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98540481B7A7A020052E347 /* Build configuration list for PBXProject "Raiz Pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A985406A1B7A7A030052E347 /* Debug */,
+				A985406B1B7A7A030052E347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A985406C1B7A7A030052E347 /* Build configuration list for PBXNativeTarget "Raiz Pic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A985406D1B7A7A030052E347 /* Debug */,
+				A985406E1B7A7A030052E347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A985406F1B7A7A030052E347 /* Build configuration list for PBXNativeTarget "Raiz PicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98540701B7A7A030052E347 /* Debug */,
+				A98540711B7A7A030052E347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98540451B7A7A020052E347 /* Project object */;
+}
